@@ -1,0 +1,129 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {	
+	background: rgb(186, 192, 192);
+}
+#contenedor {
+	width: 80%;
+	margin: auto;
+}
+#header h2{
+	font-size: 40px;
+	text-align: center;
+	background: #2e2e26;
+	color: white;
+	width: 100%;
+	margin: auto;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#navegacion {
+	overflow: auto;
+	margin-bottom: 3px;
+	margin-top: 3px;
+}
+#navegacion li {
+	background: rgb(1, 80, 50);
+	float: left;
+	list-style-type: none;
+}
+#navegacion li:hover {
+	background: black;
+}
+#navegacion li a {
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 20px;
+	text-align: center;
+
+}
+#banner img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+}
+#reparto {
+	overflow: auto;
+	background: #2e2e26;
+}
+#reparto .actor {
+	float: left;
+	width: 25.3%;
+	margin: 2%;
+	padding: 2%;
+}
+#reparto .actor img {
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+}
+#reparto .actor h3 {
+	padding: 4px;
+	background: rgb(110, 110, 112);
+	color: white;
+	font-family: system , -apple-system ,  ".SFNSText-Regular" ,  "San Francisco" ,  "Roboto" ,  "Segoe UI" ,  "Helvetica Neue" ,  "Lucida Grande" , sans-serif;
+	margin-bottom: 10px;
+	border-bottom-left-radius: 3px;
+	border-top-right-radius: 3px;
+	text-align: center;
+}
+.actor p {
+	background: rgb(185, 185, 187);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	padding: 3px;
+	border-radius: 3px;
+}
+#noticias {
+	overflow: auto;
+	margin-top: 20px;
+	background: #2e2e26;
+
+}
+#noticias .imagen {
+	float: left;
+	width: 50%;
+}
+#noticias .textonoticias {
+	float: left;
+	padding: 5%;
+	width: 40%;
+	
+}
+#noticias .imagen img {
+	width: 90%;
+	border-radius: 2px;
+	margin: 5px;
+	padding: 5px;
+
+}
+#noticias .textonoticias h2{
+	margin-bottom: 10px;
+	background: rgb(110, 110, 112);
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	border-bottom-left-radius: 3px;
+	border-top-right-radius: 3px;
+	
+}
+#noticias .textonoticias p{
+	background: rgb(185, 185, 187);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	padding: 3px;
+	border-radius: 3px;
+}
+footer{
+	text-align: center;
+	background: cornflowerblue;
+	width: 80%;
+	margin: auto;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
